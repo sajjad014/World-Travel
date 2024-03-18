@@ -1,0 +1,48 @@
+@media screen and (max-width:676px) {
+    .nav-container {
+        flex-direction: column;
+        margin-left: 105px;
+    }
+    .item-container {
+        flex-direction: column;
+        margin-left: 40px;
+        gap: 10px;
+    }
+    .img-container img {
+        width: 676px;
+        height: 480px;
+        object-fit: cover;
+    }
+    .banner-section {
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+    }
+    .input-field input {
+        width: 70px;
+        height: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .text-container {
+        margin: 0 auto;
+    }
+    .travel-heading {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .input-field {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 100px;
+        object-fit: cover;
+    }
+    .input-field button {
+        width: 280px;
+    }
+    .input-field .common-btn {
+        width: 280px;
+    }
+}

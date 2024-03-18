@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&family=Kaushan+Script&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(255, 255, 255);
+    ;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.travel {
+    color: rgb(255, 84, 0);
+}
+
+.logo-tittle {
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+}
+
+.item-container {
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.item-container a {
+    text-decoration: none;
+    gap: 20px;
+}
+
+.banner-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+
+.img-container {}
+
+.img-container img {
+    width: 100%;
+    height: 60%;
+}
+
+.input-field {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* width: 800px; */
+    /* height: 84px; */
+}
+
+.input-field input {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-field button {
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255, 84, 0);
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.input-field .common-btn {
+    width: 170px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    background: linear-gradient(to bottom, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
+    background-clip: image;
+    color: transparent;
+}
+
+.text-container p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.travel-heading {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+/* popular tour */
+
+.popular-section {
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.popular-text {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 20px;
+}
+
+.popular-text>ul>li {
+    margin-bottom: 15px;
+}
+
+.popular-img {
+    /* border: 2px solid yellow; */
+    width: 50%;
+}
+
+.popular-img>img {
+    width: 540px;
+    height: 550px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btn-read {
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255, 84, 0);
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.popular-tittle {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popular-description {
+    margin-bottom: 20px;
+}
+
+
+/* newsletter section */
+
+.newsletter-section {
+    display: flex;
+    max-width: 1230px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.newsletter-text {
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.newsletter-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.newsletter-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.newsletter-img {
+    width: 50%;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.newsletter-img img {
+    width: 600px;
+}
+
+.newsletter-input input {
+    display: grid;
+    width: 390px;
+    height: 50px;
+    margin: 20px;
+}
+
+.newsletter-input button {
+    width: 390px;
+    height: 50px;
+    color: white;
+    background-color: rgb(255, 84, 0);
+    padding: 10px 12px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(255, 84, 0);
+    color: white;
+    transform: rotate(-20deg);
+    padding: 20px;
+}
