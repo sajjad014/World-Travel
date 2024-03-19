@@ -1,4 +1,4 @@
-@media screen and (max-width:676px) {
+@media screen and (max-width:600px) {
     .nav-container {
         flex-direction: column;
         margin-left: 105px;
@@ -9,7 +9,7 @@
         gap: 10px;
     }
     .img-container img {
-        width: 676px;
+        width: 600px;
         height: 480px;
         object-fit: cover;
     }
@@ -44,5 +44,62 @@
     }
     .input-field .common-btn {
         width: 280px;
+    }
+    .popular-text {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left: 20px;
+    }
+    .popular-section {
+        display: grid;
+        text-align: center;
+    }
+    .popular-img>img {
+        width: 430px;
+        height: 370px;
+        object-fit: cover;
+    }
+    .destination-text {
+        width: 100%;
+    }
+    .grid-item-1 {
+        display: grid;
+    }
+    .grid-item-2 {
+        display: grid;
+    }
+    .maldives-img img {
+        width: 400px;
+        height: 176px;
+    }
+    .Indonesia-img img {
+        width: 400px;
+        height: 176px;
+    }
+    .newsletter-section {
+        display: grid;
+    }
+    .newsletter-img img {
+        width: 400px;
+    }
+    .newsletter-text {
+        width: 100%;
+        /* border: 2px solid yellow; */
+    }
+    .discount {
+        left: 30px;
+    }
+    .footer-img {
+        padding-top: 20px;
+    }
+    .footer-tittle {
+        font-size: 16px;
+        text-align: center;
+    }
+    .icon-footer {
+        justify-content: center;
+    }
+    .icon-footer>span>i {
+        margin-right: 5px;
     }
 }
